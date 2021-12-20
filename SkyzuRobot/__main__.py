@@ -500,7 +500,7 @@ def Source_about_callback(update, context):
         query.message.edit_text(
             text="๏›› This advance command for Musicplayer power by 𝙳ᴇᴠɪʟ✗✿‌᭄𝙰ɳɠɛƖ༉࿐ ."
             "\n\n๏ Command for admins only."
-            "\n • `/reload` - For refreshing the adminlist."
+            "\n • `/joinassistant` - invait assistant to ur Chat."
             "\n • `/pause` - To pause the playback."
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
