@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
+*Hᴇʏ Tʜᴇʀᴇ {} !*
 ────────────────────────
-✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
-✪ Maintained by @skyzu ✨
+✪ I Aᴍ 😈⃝ 𝙳ᴇᴠɪʟ✗✿‌᭄𝙰ɳɠɛƖ ➻❥✰༉࿐🧚‍♀️. Aᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs.
+✪ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs ✨
 ────────────────────────
-Hit the /help to see available command.
+[➼](https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg)Usᴇ /help Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [
