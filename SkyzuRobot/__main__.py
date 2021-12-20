@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text=
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="Skyzu_"),
+        InlineKeyboardButton(text="🛸 Aʙᴏᴜᴛ", callback_data="Skyzu_"),
     ],
     [
         InlineKeyboardButton(
@@ -116,7 +116,7 @@ Click on the button bellow to get description about specifics command."""
 EMI_IMG = "https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyzu \
+ You can support the project by contacting @Attitude_king_vj \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
