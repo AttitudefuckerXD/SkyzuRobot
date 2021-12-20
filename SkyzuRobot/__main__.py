@@ -464,9 +464,9 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="t.me/skyzusupport"),
+                        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/tgcalls_MusicXchat"),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/ProjectSkyzu"
+                            text="ᴜᴘᴅᴀᴛᴇs​", url="https://t.me/tgcalls_Music_update"
                         ),
                     ],
                     [
@@ -484,7 +484,7 @@ def Skyzu_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="👑 King", url="t.me/"Attitude_king_vj"),
+                        InlineKeyboardButton(text="𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌", url="t.me/Attitude_king_vj"),
                     ],
                     [
                         InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
