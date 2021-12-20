@@ -91,21 +91,21 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​", callback_data="help_back"),
+        InlineKeyboardButton(text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs​", callback_data="help_back"),
     ],
     [
+        InlineKeyboardButton(text=
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
-        InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/Skyzu/SkyzuRobot"
+            text="📡 Uᴘᴅᴀᴛᴇs​", url="https://t.me/tgcalls_MusicXchat"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ 😈​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ sᴋʏᴢᴜ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗", url="t.me/SkyzuRobot?startgroup=new"
+            text="➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴘ​ ➕", url="t.me/DevilxAngeLBot?startgroup=new"
         ),
     ],
 ]
@@ -113,7 +113,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
+EMI_IMG = "https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @skyzu \
