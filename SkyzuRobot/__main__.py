@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="❓ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs​", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text=""),
+        InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""),
         InlineKeyboardButton(text="🛸 Aʙᴏᴜᴛ", callback_data="Skyzu_"),
     ],
     [
