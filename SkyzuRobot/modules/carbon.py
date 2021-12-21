@@ -29,13 +29,13 @@ async def repo(_, message):
     await message.reply_text(
         f"""✨ **Hey I'm Skyzu Robot** 
 
-**Owner repo : [Skyzu](https://t.me/skyzu)**
+**Owner repo : [𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌](https://t.me/Attitude_king_vj)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
 
-**Create your own with click button bellow.**
+**join Support Group click button bellow.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
