@@ -9,12 +9,12 @@ from SkyzuRobot.events import register
 from SkyzuRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
+PHOTO = "https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Skyzu Robot.** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm .** \n\n"
     TEXT += "⚪ **I'm Working Properly** \n\n"
     TEXT += f"⚪ **My Master : [𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌](t.me/Attitude_king_vj)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
@@ -24,7 +24,7 @@ async def awake(event):
     BUTTON = [
         [
             Button.url("ʜᴇʟᴘ​", "https://t.me/DevilxAngeLBot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/skyzusupport"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/tgcalls_MusicXchat"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=TEXT, buttons=BUTTON)
