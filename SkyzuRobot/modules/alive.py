@@ -16,14 +16,14 @@ PHOTO = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
 async def awake(event):
     TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Skyzu Robot.** \n\n"
     TEXT += "⚪ **I'm Working Properly** \n\n"
-    TEXT += f"⚪ **My Master : [Skyzu](https://t.me/skyzu)** \n\n"
+    TEXT += f"⚪ **My Master : [𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌](t.me/Attitude_king_vj)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
     TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
     TEXT += "**Thanks For Adding Me Here ❤️**"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/SkyzuRobot?start=help"),
+            Button.url("ʜᴇʟᴘ​", "https://t.me/DevilxAngeLBot?start=help"),
             Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/skyzusupport"),
         ]
     ]
