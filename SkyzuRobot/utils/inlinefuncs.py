@@ -126,7 +126,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Skyzu Robot ❤️](https://t.me/SkyzuRobot):**
+**[DevilxAngeLBot ❤️](https://t.me/DevilxAngeLBot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
