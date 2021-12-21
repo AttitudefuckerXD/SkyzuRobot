@@ -803,7 +803,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                f"""**Skyzu Robot Started!**
+                f"""**Devil Angel Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
