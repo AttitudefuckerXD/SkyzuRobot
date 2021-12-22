@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📡 Uᴘᴅᴀᴛᴇs​", url="https://t.me/tgcalls_MusicXchat"
+            text="📡 Uᴘᴅᴀᴛᴇs​", url="https://t.me/tgcalls_Music_update"
         ),
         InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ 😈​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
