@@ -385,28 +385,28 @@ def Skyzu_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴀᴅᴍɪɴs​", callback_data="Skyzu_admin"
+                            text="Aᴅᴍɪɴs​", callback_data="Skyzu_admin"
                         ),
                         InlineKeyboardButton(
-                            text="ɴᴏᴛᴇs​", callback_data="Skyzu_notes"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ​", callback_data="Skyzu_support"
-                        ),
-                        InlineKeyboardButton(
-                            text="ᴄʀᴇᴅɪᴛs​", callback_data="Skyzu_credit"
+                            text="Nᴏᴛᴇs​", callback_data="Skyzu_notes"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴍᴜsɪᴄᴘʟᴀʏᴇʀ​", callback_data="source_"
+                            text="Sᴜᴘᴘᴏʀᴛ​", callback_data="Skyzu_support"
+                        ),
+                        InlineKeyboardButton(
+                            text="Cʀᴇᴅɪᴛs​", callback_data="Skyzu_credit"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_back"
+                            text="🔊MᴜsɪᴄPʟᴀʏᴇʀ​", callback_data="source_"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_back"
                         ),
                     ],
                 ]
@@ -441,7 +441,7 @@ def Skyzu_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
 
@@ -453,7 +453,7 @@ def Skyzu_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
     elif query.data == "Skyzu_support":
@@ -470,7 +470,7 @@ def Skyzu_about_callback(update, context):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
+                        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_"),
                     ],
                 ]
             ),
@@ -487,7 +487,7 @@ def Skyzu_about_callback(update, context):
                         InlineKeyboardButton(text="𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌", url="t.me/Attitude_king_vj"),
                     ],
                     [
-                        InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
+                        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_"),
                     ],
                 ]
             ),
@@ -512,7 +512,7 @@ def Source_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="Skyzu_")]]
             ),
         )
     elif query.data == "source_back":
@@ -561,7 +561,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​",
+                            text="❓ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -582,7 +582,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ​", callback_data="help_back")]]
             ),
         )
 
@@ -654,7 +654,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ɢᴏ ʙᴀᴄᴋ​",
+                                text="🔙 ʙᴀᴄᴋ​",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -729,7 +729,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs​",
+                                text="⚙️ Sᴇᴛᴛɪɴɢs​",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
